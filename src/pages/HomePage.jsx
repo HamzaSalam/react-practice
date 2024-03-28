@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
         <Hero title='Become a React Dev' subtitle='Find the React job that fits your skill set'/>
         <HomeCard/>
-        <JobListings/> 
+        <JobListings isHome={true}/> 
         <ViewAllJobs/> 
     </>
   )
